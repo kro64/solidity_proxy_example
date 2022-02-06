@@ -2,6 +2,10 @@
 
 This is a simple router (or just proxy) contract setup in Solidity, that allows easier management of the code.
 
+The provided example allows user to read and write data on the data (storage) contract, using a separate - interface contract.
+
+Keep in mind, that this setup allows anyone to write the data! Adjust modifiers to your own needs.
+
 __What's inside__
 
 - _Router contract_
