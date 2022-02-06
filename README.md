@@ -24,4 +24,4 @@ This contract stores information, as it's name suggest.
 
 __Action sequence schematic__
 
-![router contract schematic](./assets/router.png "Router")
+![router contract schematic](./assets/router_bg.png "Router")
