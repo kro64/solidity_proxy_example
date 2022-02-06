@@ -3,6 +3,9 @@ pragma solidity >=0.7.0 <0.8.10;
 // Interface contract interacts with data contracts.
 // Provides application logic, game mechanics, etc..
 
+// Don't forget to update `router_address` before deploying.
+// Deploy this only after router contract.
+
 contract ROUTER {
     function get_data_contract() public view returns (address) {}
 }

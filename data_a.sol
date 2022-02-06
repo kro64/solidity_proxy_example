@@ -2,6 +2,9 @@ pragma solidity >=0.7.0 <0.8.10;
 
 // This contract stores data. Provides read/write permissions.
 
+// Don't forget to update `router_address` before deploying.
+// Deploy this only after router contract.
+
 contract DATA_CONTRACT_A {
     address public OWNER;
     address public router_address = 0x1c91347f2A44538ce62453BEBd9Aa907C662b4bD;
