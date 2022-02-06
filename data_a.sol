@@ -1,10 +1,10 @@
-pragma solidity >=0.7.0 <0.8.6;
+pragma solidity >=0.7.0 <0.8.10;
 
 // This contract stores data. Provides read/write permissions.
 
 contract DATA_CONTRACT_A {
     address public OWNER;
-    address public router_address = 0x3c725134d74D5c45B4E4ABd2e5e2a109b5541288;
+    address public router_address = 0x1c91347f2A44538ce62453BEBd9Aa907C662b4bD;
 
     constructor() {
         OWNER = msg.sender;
