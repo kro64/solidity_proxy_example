@@ -21,3 +21,7 @@ where data and other contracts are located.
 - _Data contract_
 
 This contract stores information, as it's name suggest.
+
+__Action sequence schematic__
+
+![router contract schematic](./assets/router.png "Router")
